@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Главная";
+}
+
+<div class="jumbotron">
+    <h1>Использование WCF в MVC</h1>
+    <p class="lead">Чтобы подробнее узнать о том, как создавать WCF службы и использовать их в MVC приложениях нажмите на кнопку.</p>
+    <p><a href="https://shwanoff.ru/wcf/" class="btn btn-primary btn-lg">Узнать больше &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <h2>Количество Дней до нового года</h2>
+        <p>@ViewBag.DaysToNewYear.Days</p>
+    </div>
+    <div class="col-md-3">
+        <h2>Количество Часов до нового года</h2>
+        <p>@ViewBag.DaysToNewYear.Hours</p>
+    </div>
+    <div class="col-md-3">
+        <h2>Количество Минут до нового года</h2>
+        <p>@ViewBag.DaysToNewYear.Minutes</p>
+    </div>
+    <div class="col-md-3">
+        <h2>Количество Секунд до нового года</h2>
+        <p>@ViewBag.DaysToNewYear.Seconds</p>
+    </div>
+</div>

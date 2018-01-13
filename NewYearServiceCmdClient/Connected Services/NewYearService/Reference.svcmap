@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="eabcc410-a919-4a31-bb20-11b585de4734" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:37385/NewYearService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="NewYearService.xsd" MetadataType="Schema" ID="758781db-5c9c-456e-94f2-0291d7a013d5" SourceId="1" SourceUrl="http://localhost:37385/NewYearService.svc?xsd=xsd1" />
+    <MetadataFile FileName="NewYearService1.xsd" MetadataType="Schema" ID="db11c277-a2b5-4b5a-bee6-3f7fd4370907" SourceId="1" SourceUrl="http://localhost:37385/NewYearService.svc?xsd=xsd0" />
+    <MetadataFile FileName="NewYearService2.xsd" MetadataType="Schema" ID="b3cd7f22-5747-42f6-b469-ef260bc9f638" SourceId="1" SourceUrl="http://localhost:37385/NewYearService.svc?xsd=xsd2" />
+    <MetadataFile FileName="NewYearService.disco" MetadataType="Disco" ID="54b58718-4bfd-4d8e-afd7-b3b64d9b194d" SourceId="1" SourceUrl="http://localhost:37385/NewYearService.svc?disco" />
+    <MetadataFile FileName="NewYearService.wsdl" MetadataType="Wsdl" ID="b06c9917-5ff4-4132-8e11-e80112cf89d7" SourceId="1" SourceUrl="http://localhost:37385/NewYearService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
